@@ -1,0 +1,46 @@
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 0;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  nav a{
+    font-size: 15px;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 50px;
+    
+  }
+  
+  nav a:hover{
+    color: #336125;
+  }
+  .hover-line::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #336125;
+    transition: all .6s ease 0s;
+    transition: width .3;
+    
+  }
+  .hover-line:hover::after{
+    width: 100%;
+    transition: width .34s;
+  }
+  
+  
