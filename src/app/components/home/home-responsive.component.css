@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px){
+    .main-section{
+        flex-direction: column;
+        padding: 0 40px;
+    }
+    .main-section img{
+        width: 50%;
+        height: 50%;
+    }
+    h1 {
+        font-size: 48px;
+        font-weight: 900;
+    }
+    
+    .benefit-section{
+        flex-direction: column;
+        padding: 0 40px;
+    }
+}
