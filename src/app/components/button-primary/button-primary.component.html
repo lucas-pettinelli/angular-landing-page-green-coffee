@@ -1,0 +1,9 @@
+<button (click)="onSubmit" [disabled]="disabled">
+
+@if (!loading) {
+    {{buttonText}}
+}@else {
+    Carregando...
+}
+
+</button>
