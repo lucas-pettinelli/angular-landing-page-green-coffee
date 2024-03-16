@@ -2,16 +2,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
- margin: 30px 70px 0 70px;
-  height: 50px;
-  background-color: red;
+  margin: 5px 70px 0 70px;
+  height: 60px;
+  background-color: #004243;
   font-size: 0;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 nav a {
+  background-color: #004243;
   font-size: 15px;
-  color: #0f0f0f;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
@@ -23,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #336125;
+  color: #ffffff;
 }
 
 .hover-line::after {
@@ -31,7 +32,7 @@ nav a:hover {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #336125;
+  background-color: #ffffff;
   transition: all .6s ease 0s;
   transition: width .3;
 

@@ -5,9 +5,15 @@ button {
     font-size: 20px;
     font-weight: bold;
     padding: 15px 40px;
-    background-color: brown;
+    background-color: #AD6D4A;
+    color: #ffffff;
+    letter-spacing: 1px;
 
     &:disabled {
         opacity: 0.6;
     }
+ 
+}
+button:hover{
+    background-color: #a06240;
 }
