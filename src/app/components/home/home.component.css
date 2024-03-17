@@ -2,6 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    background-color: #F3EADF;
 }
 
 .main-section {
@@ -10,10 +11,6 @@ main {
     align-items: center;
     flex-direction: row;
     margin: 20px 70px 0 70px;
-}
-
-.main-section img {
-    padding: 20px;
 }
 
 span {

@@ -1,8 +1,9 @@
+
+
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px 70px 0 70px;
   height: 60px;
   background-color: #004243;
   font-size: 0;
@@ -40,6 +41,7 @@ nav a:hover {
 }
 
 .hover-line:hover::after {
+  
   width: 100%;
   transition: width .34s;
 }

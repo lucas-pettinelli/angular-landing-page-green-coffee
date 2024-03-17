@@ -1,4 +1,4 @@
-.benefit-cards{
+.benefit-cards {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -7,7 +7,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-h5{
+h5 {
     font-size: 28px;
     font-weight: 600;
     color: #0f0f0f;
@@ -15,7 +15,7 @@ h5{
     padding-right: 40px;
 }
 
-p{
+p {
     font-size: 16px;
     font-weight: 400;
     color: #0f0f0f;
@@ -23,3 +23,16 @@ p{
     padding-right: 40px;
 }
 
+img {
+    cursor: pointer;
+    filter: grayscale(10%) sepia(30%) blur(1px) brightness(90%) saturate(150%);
+    -webkit-filter: grayscale(10%) sepia(30%) blur(1px) brightness(90%) saturate(150%);
+    -moz-filter: grayscale(10%) sepia(30%) blur(1px) brightness(90%) saturate(150%);
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+
+img:hover {
+
+    filter: none;
+}
