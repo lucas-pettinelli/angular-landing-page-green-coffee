@@ -1,0 +1,25 @@
+.benefit-cards{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 600px;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h5{
+    font-size: 28px;
+    font-weight: 600;
+    color: #0f0f0f;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f0f0f;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+

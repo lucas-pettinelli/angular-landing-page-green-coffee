@@ -24,9 +24,10 @@ span {
 
 h1 {
     padding-right: 40px;
-    font-size: 64px;
-    font-weight: 900;
-
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #1f1f1f;
 }
 
 .benefit-section {
@@ -38,10 +39,12 @@ h1 {
 }
 
 .benefit-section h2 {
-    font-size: 52px;
+    font-size: 44px;
     font-weight: 600;
     text-align:left;
     letter-spacing: 1px;
+    color: #1f1f1f;
+    font-family: "Montserrat", sans-serif;
 }
 
 .benefit-data {
@@ -50,15 +53,17 @@ h1 {
 }
 
 q {
-    font-size: 38px;
+    font-size: 28px;
     font-style: italic;
-    color: #0f0f0f;
+    color: #1f1f1f;
     font-weight: 300;
     margin-left: 90px;
+    font-family: "Montserrat", sans-serif;
 }
 
 q b {
     background: -webkit-linear-gradient(180deg, #004243, #024b4d);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
