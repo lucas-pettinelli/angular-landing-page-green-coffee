@@ -15,7 +15,7 @@ footer{
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font-family: "Montserrat", sans-serif 16px bold;
 	padding: 55px 50px;
 }
 
@@ -170,11 +170,11 @@ footer{
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
+@media only screen and (max-width: 600px){
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		display: flex;
+		flex-direction: column;
+		font-family: "Montserrat", sans-serif 16px bold;
 	}
 
 	.footer-distributed .footer-left,
@@ -182,7 +182,7 @@ footer{
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin: 40px auto;
 		text-align: center;
 	}
 

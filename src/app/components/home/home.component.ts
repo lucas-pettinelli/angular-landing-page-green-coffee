@@ -10,7 +10,7 @@ import { BenefitCardComponent } from "../benefit-card/benefit-card.component";
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css', './home-responsive.component.css'],
+    styleUrl: './home.component.css',
     imports: [HeaderComponent, NgOptimizedImage, ButtonPrimaryComponent, NewsletterFormComponent, FooterComponent, BenefitCardComponent]
 })
 export class HomeComponent {
